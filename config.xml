@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<App>
+  <Name>IOCPServer</Name>
+  <Server>
+    <IP>127.0.0.1</IP>
+    <Port>9300</Port>
+    <ThreadCount>16</ThreadCount>
+  </Server>
+  <!--<Log>
+    <Path>./Log/LoginLog.log</Path>
+    <Prefix>System</Prefix>
+    <Type>WithFile</Type>
+  </Log>
+  <Task>
+    <ThreadCount>5</ThreadCount>
+  </Task>-->
+  <Contents>
+    <ThreadCount>5</ThreadCount>
+  </Contents>
+</App>
